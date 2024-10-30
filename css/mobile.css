@@ -77,9 +77,12 @@ nav ul li a {
 }
 .redBack {
   background-color: #be1c26;
+  color: #fff;
 }
 .greenBack {
   background-color: #398d38;
+  color: #fff;
+
 }
 .blueBack {
   background-color: #163b59;
@@ -87,6 +90,11 @@ nav ul li a {
 }
 .defaultBack {
   background-color: #ffffff;
+}
+.darkBack {
+  background-color: #181818;
+  color: #fff;
+
 }
 .error {
   color: #be1c26;

@@ -25,13 +25,17 @@ colourButtons[i].addEventListener("click", function() {
         {
         document.body.setAttribute("class", "greenBack")
         }
-    else if (colourButtons[1].classList.contains("blue")) 
+    else if (colourButtons[i].classList.contains("blue")) 
         {
         document.body.setAttribute("class", "blueBack")
         }
     else if (colourButtons[i].classList.contains("reset")) 
         {
         document.body.removeAttribute("class");
+        }
+    else if (colourButtons[i].classList.contains("dark"))
+        {
+        document.body.setAttribute("class", "darkBack")
         }
     });
 }
